@@ -30,22 +30,23 @@ pipeline {
             }
         }
     }
-    post {
-        always {
-            echo 'Cleaning Workspace'
 
-        }
-        success {
-            echo 'Successfully!'
-        }
-        failure {
-            echo 'Failed!'
-        }
-        unstable {
-            echo 'This will run only if the run was marked as unstable'
-        }
-        changed {
-            echo 'This will run only if the state of the Pipeline has changed'
-        }
-    }
+post {
+always {
+echo 'Cleaning Workspace'
+cleanWs()
+}
+success {
+echo 'Successfully!'
+}
+failure {
+echo 'Failed!'
+}
+unstable {
+echo 'This will run only if the run was marked as unstable'
+}
+changed {
+echo 'This will run only if the state of the Pipeline has changed'
+}
+}
 }
