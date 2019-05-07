@@ -10,8 +10,8 @@ pipeline {
 
         stage('Run tests') {
             steps {
-                dir('Cucumber_sexyHot'){
-                   bat 'mvn test'
+                cd('Cucumber_sexyHot'){
+                    'mvn test'
                 }
             }
         }
