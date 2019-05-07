@@ -10,10 +10,10 @@ pipeline {
 
         stage('Run tests') {
             steps {
-                dir('cucumber_sexyHot'){
+
                sh 'mvn test -Djenkins'
-                }
-            }
+               }
+
         }
 
         stage('Generate report') {
