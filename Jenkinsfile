@@ -10,7 +10,7 @@ pipeline {
 
         stage('Run tests') {
             steps {
-                dir('Interep'){
+                dir('Cucumber_sexyHot'){
                    bat 'mvn test'
                 }
             }
