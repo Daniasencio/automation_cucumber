@@ -10,7 +10,7 @@ pipeline {
 
         stage('Run tests') {
             steps {
-                cd cucumber_sexyHot{
+                cd('cucumber_sexyHot{
                     'mvn test'
                 }
             }
