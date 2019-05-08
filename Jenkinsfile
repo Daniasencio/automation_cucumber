@@ -9,7 +9,8 @@ pipeline {
         }
 
         stage('Run tests') {
-            steps
+            steps {
+                dir('cucumber_sexyHot'){
                  sh 'mvn test'
                 }
             }
@@ -32,7 +33,7 @@ pipeline {
     post {
         always {
             echo 'Cleaning Workspace'
-
+            cleanWs()
 
         }
         success {
