@@ -11,9 +11,9 @@ pipeline {
 
         stage('Run tests') {
             steps {
-            sh 'cd SexyHot'
-
-            sh'${MAVEN_HOME}/bin/mvn test -Djenkins'
+            sh 'cd SexyHot''
+            sh 'pwd'
+            sh'mvn test
 
 
             }
