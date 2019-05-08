@@ -10,7 +10,7 @@ pipeline {
 
         stage('Run tests') {
             steps {
-                dir('Cucumber_sexyHot'){
+                dir('SexyHot'){
                 sh '${MAVEN_HOME}/bin/mvn test -Djenkins'
                 }
             }
