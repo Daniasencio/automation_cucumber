@@ -10,7 +10,7 @@ pipeline {
 
         stage('Run tests') {
             steps {
-                dir(''){
+                dir('Cucumber_sexyHot'){
                  sh 'mvn test'
                 }
             }
