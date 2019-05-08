@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="runner.RunnerTest" time="37.193" tests="12" errors="5" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="runner.RunnerTest" time="37.073" tests="12" errors="5" skipped="2" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib"/>
@@ -63,28 +63,54 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="Given O usuario acessa o site" classname="Scenario: O usurio deseja acessar o site e se cadastrar" time="0.001"/>
+  <testcase name="Given O usuario acessa o site" classname="Scenario: O usurio deseja acessar o site e se cadastrar" time="0.002"/>
   <testcase name="And clica no botao cadastrar" classname="Scenario: O usurio deseja acessar o site e se cadastrar" time="0"/>
-  <testcase name="And Isiro meus dados" classname="Scenario: O usurio deseja acessar o site e se cadastrar" time="0"/>
-  <testcase name="Then Clico no botao cadastre-se" classname="Scenario: O usurio deseja acessar o site e se cadastrar" time="0"/>
-  <testcase name="When O cadastro é realizado com sucesso" classname="Scenario: O usurio deseja acessar o site e se cadastrar" time="0.007">
-    <error message="Arity mismatch: Step Definition &apos;steps.CadastroPageStepsTest.o_cadastro_é_realizado_com_sucesso(String) in file:/Users/luis.camilo/Documents/Cucumber_sexyHot/target/test-classes/&apos; with pattern [^O cadastro é realizado com sucesso$] is declared with 1 parameters. However, the gherkin step has 0 arguments []. &#10;Step: When O cadastro é realizado com sucesso" type="cucumber.runtime.CucumberException">cucumber.runtime.CucumberException: 
-Arity mismatch: Step Definition 'steps.CadastroPageStepsTest.o_cadastro_é_realizado_com_sucesso(String) in file:/Users/luis.camilo/Documents/Cucumber_sexyHot/target/test-classes/' with pattern [^O cadastro é realizado com sucesso$] is declared with 1 parameters. However, the gherkin step has 0 arguments []. 
-Step: When O cadastro é realizado com sucesso
+  <testcase name="And Isiro meus dados" classname="Scenario: O usurio deseja acessar o site e se cadastrar" time="0.008">
+    <error message="Browsing context has been discarded&#10;Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T15:28:36.4Z&apos;&#10;System info: host: &apos;000841&apos;, ip: &apos;fe80:0:0:0:4f1:8d2b:93d9:86a4%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.3&apos;, java.version: &apos;1.8.0_201&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities [{moz:profile=/var/folders/5r/h6zgdb8s2db0rqpvrjfhcb_m0000gp/T/rust_mozprofile.W9htK2p0s1Gn, rotatable=false, moz:geckodriverVersion=0.24.0, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=false, platform=MAC, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=true, browserVersion=66.0.3, moz:shutdownTimeout=60000, platformVersion=18.2.0, moz:processID=23850, browserName=firefox, javascriptEnabled=true, platformName=MAC, setWindowRect=true, moz:webdriverClick=true}]&#10;Session ID: 50bab928-40a3-f440-9a30-6aa7e34021b4&#10;*** Element info: {Using=xpath, value=/html[1]/body[1]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/form[1]/div[2]/div[1]/input[1]}" type="org.openqa.selenium.NoSuchWindowException">org.openqa.selenium.NoSuchWindowException: 
+Browsing context has been discarded
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: '000841', ip: 'fe80:0:0:0:4f1:8d2b:93d9:86a4%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.3', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=/var/folders/5r/h6zgdb8s2db0rqpvrjfhcb_m0000gp/T/rust_mozprofile.W9htK2p0s1Gn, rotatable=false, moz:geckodriverVersion=0.24.0, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=false, platform=MAC, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=true, browserVersion=66.0.3, moz:shutdownTimeout=60000, platformVersion=18.2.0, moz:processID=23850, browserName=firefox, javascriptEnabled=true, platformName=MAC, setWindowRect=true, moz:webdriverClick=true}]
+Session ID: 50bab928-40a3-f440-9a30-6aa7e34021b4
+*** Element info: {Using=xpath, value=/html[1]/body[1]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/form[1]/div[2]/div[1]/input[1]}
+</error>
+    <system-err><![CDATA[mai 07, 2019 9:01:59 PM org.openqa.selenium.remote.ErrorCodes toStatus
+INFORMAÇÕES: HTTP Status: '404' -> incorrect JSON status mapping for 'no such window' (400 expected)
+]]></system-err>
+  </testcase>
+  <testcase name="Scenario: O usurio deseja acessar o site e se cadastrar" classname="Scenario: O usurio deseja acessar o site e se cadastrar" time="0.009">
+    <error message="Browsing context has been discarded&#10;Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T15:28:36.4Z&apos;&#10;System info: host: &apos;000841&apos;, ip: &apos;fe80:0:0:0:4f1:8d2b:93d9:86a4%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.3&apos;, java.version: &apos;1.8.0_201&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities [{moz:profile=/var/folders/5r/h6zgdb8s2db0rqpvrjfhcb_m0000gp/T/rust_mozprofile.W9htK2p0s1Gn, rotatable=false, moz:geckodriverVersion=0.24.0, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=false, platform=MAC, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=true, browserVersion=66.0.3, moz:shutdownTimeout=60000, platformVersion=18.2.0, moz:processID=23850, browserName=firefox, javascriptEnabled=true, platformName=MAC, setWindowRect=true, moz:webdriverClick=true}]&#10;Session ID: 50bab928-40a3-f440-9a30-6aa7e34021b4&#10;*** Element info: {Using=xpath, value=/html[1]/body[1]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/form[1]/div[2]/div[1]/input[1]}" type="org.openqa.selenium.NoSuchWindowException">org.openqa.selenium.NoSuchWindowException: 
+Browsing context has been discarded
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: '000841', ip: 'fe80:0:0:0:4f1:8d2b:93d9:86a4%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.3', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=/var/folders/5r/h6zgdb8s2db0rqpvrjfhcb_m0000gp/T/rust_mozprofile.W9htK2p0s1Gn, rotatable=false, moz:geckodriverVersion=0.24.0, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=false, platform=MAC, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=true, browserVersion=66.0.3, moz:shutdownTimeout=60000, platformVersion=18.2.0, moz:processID=23850, browserName=firefox, javascriptEnabled=true, platformName=MAC, setWindowRect=true, moz:webdriverClick=true}]
+Session ID: 50bab928-40a3-f440-9a30-6aa7e34021b4
+*** Element info: {Using=xpath, value=/html[1]/body[1]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/form[1]/div[2]/div[1]/input[1]}
 </error>
   </testcase>
-  <testcase name="Scenario: O usurio deseja acessar o site e se cadastrar" classname="Scenario: O usurio deseja acessar o site e se cadastrar" time="0.007">
-    <error message="Arity mismatch: Step Definition &apos;steps.CadastroPageStepsTest.o_cadastro_é_realizado_com_sucesso(String) in file:/Users/luis.camilo/Documents/Cucumber_sexyHot/target/test-classes/&apos; with pattern [^O cadastro é realizado com sucesso$] is declared with 1 parameters. However, the gherkin step has 0 arguments []. &#10;Step: When O cadastro é realizado com sucesso" type="cucumber.runtime.CucumberException">cucumber.runtime.CucumberException: 
-Arity mismatch: Step Definition 'steps.CadastroPageStepsTest.o_cadastro_é_realizado_com_sucesso(String) in file:/Users/luis.camilo/Documents/Cucumber_sexyHot/target/test-classes/' with pattern [^O cadastro é realizado com sucesso$] is declared with 1 parameters. However, the gherkin step has 0 arguments []. 
-Step: When O cadastro é realizado com sucesso
-</error>
-  </testcase>
-  <testcase name="Scenario: O usurio deseja acessar o site e se cadastrar" classname="Scenario: O usurio deseja acessar o site e se cadastrar" time="0.021">
-    <error message="Conversion = &apos;F&apos;" type="java.util.UnknownFormatConversionException">java.util.UnknownFormatConversionException: Conversion = 'F'
+  <testcase name="Scenario: O usurio deseja acessar o site e se cadastrar" classname="Scenario: O usurio deseja acessar o site e se cadastrar" time="0.019">
+    <error message="Browsing context has been discarded&#10;Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T15:28:36.4Z&apos;&#10;System info: host: &apos;000841&apos;, ip: &apos;fe80:0:0:0:4f1:8d2b:93d9:86a4%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.3&apos;, java.version: &apos;1.8.0_201&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities [{moz:profile=/var/folders/5r/h6zgdb8s2db0rqpvrjfhcb_m0000gp/T/rust_mozprofile.W9htK2p0s1Gn, rotatable=false, moz:geckodriverVersion=0.24.0, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=false, platform=MAC, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=true, browserVersion=66.0.3, moz:shutdownTimeout=60000, platformVersion=18.2.0, moz:processID=23850, browserName=firefox, javascriptEnabled=true, platformName=MAC, setWindowRect=true, moz:webdriverClick=true}]&#10;Session ID: 50bab928-40a3-f440-9a30-6aa7e34021b4" type="org.openqa.selenium.NoSuchWindowException">org.openqa.selenium.NoSuchWindowException: 
+Browsing context has been discarded
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: '000841', ip: 'fe80:0:0:0:4f1:8d2b:93d9:86a4%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.3', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=/var/folders/5r/h6zgdb8s2db0rqpvrjfhcb_m0000gp/T/rust_mozprofile.W9htK2p0s1Gn, rotatable=false, moz:geckodriverVersion=0.24.0, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=false, platform=MAC, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=true, browserVersion=66.0.3, moz:shutdownTimeout=60000, platformVersion=18.2.0, moz:processID=23850, browserName=firefox, javascriptEnabled=true, platformName=MAC, setWindowRect=true, moz:webdriverClick=true}]
+Session ID: 50bab928-40a3-f440-9a30-6aa7e34021b4
 </error>
     <system-out><![CDATA[
 --- Scenario O usurio deseja acessar o site e se cadastrar executed ---
 ]]></system-out>
+    <system-err><![CDATA[mai 07, 2019 9:01:59 PM org.openqa.selenium.remote.ErrorCodes toStatus
+INFORMAÇÕES: HTTP Status: '404' -> incorrect JSON status mapping for 'no such window' (400 expected)
+]]></system-err>
+  </testcase>
+  <testcase name="Then Clico no botao cadastre-se" classname="Scenario: O usurio deseja acessar o site e se cadastrar" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="When O cadastro é realizado com sucesso" classname="Scenario: O usurio deseja acessar o site e se cadastrar" time="0">
+    <skipped/>
   </testcase>
   <testcase name="Given O usuario acessa o site sexyHOT" classname="Scenario: O usurio deseja acessar o site e realizar uma busca" time="0"/>
   <testcase name="Then e insere alguma palavra na barra de busca" classname="Scenario: O usurio deseja acessar o site e realizar uma busca" time="0"/>
