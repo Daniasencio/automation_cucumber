@@ -36,11 +36,11 @@ pipeline {
     post {
         always {
             echo 'Cleaning Workspace'
-
-
+             cleanWS()
         }
         success {
             echo 'Successfully!'
+
         }
         failure {
             echo 'Failed!'
