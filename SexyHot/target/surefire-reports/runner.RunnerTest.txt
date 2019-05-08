@@ -1,26 +1,26 @@
 -------------------------------------------------------------------------------
 Test set: runner.RunnerTest
 -------------------------------------------------------------------------------
-Tests run: 12, Failures: 0, Errors: 5, Skipped: 0, Time elapsed: 41.131 sec <<< FAILURE! - in runner.RunnerTest
-When O cadastro é realizado com sucesso(Scenario: O usurio deseja acessar o site e se cadastrar)  Time elapsed: 0.006 sec  <<< ERROR!
+Tests run: 12, Failures: 0, Errors: 5, Skipped: 0, Time elapsed: 43.932 sec <<< FAILURE! - in runner.RunnerTest
+When O cadastro é realizado com sucesso(Scenario: O usurio deseja acessar o site e se cadastrar)  Time elapsed: 0.007 sec  <<< ERROR!
 cucumber.runtime.CucumberException: 
 Arity mismatch: Step Definition 'steps.CadastroPageStepsTest.o_cadastro_é_realizado_com_sucesso(String) in file:/Users/luis.camilo/Documents/Cucumber_sexyHot/target/test-classes/' with pattern [^O cadastro é realizado com sucesso$] is declared with 1 parameters. However, the gherkin step has 0 arguments []. 
 Step: When O cadastro é realizado com sucesso
 
-Scenario: O usurio deseja acessar o site e se cadastrar  Time elapsed: 0.006 sec  <<< ERROR!
+Scenario: O usurio deseja acessar o site e se cadastrar  Time elapsed: 0.007 sec  <<< ERROR!
 cucumber.runtime.CucumberException: 
 Arity mismatch: Step Definition 'steps.CadastroPageStepsTest.o_cadastro_é_realizado_com_sucesso(String) in file:/Users/luis.camilo/Documents/Cucumber_sexyHot/target/test-classes/' with pattern [^O cadastro é realizado com sucesso$] is declared with 1 parameters. However, the gherkin step has 0 arguments []. 
 Step: When O cadastro é realizado com sucesso
 
-Scenario: O usurio deseja acessar o site e se cadastrar  Time elapsed: 0.02 sec  <<< ERROR!
+Scenario: O usurio deseja acessar o site e se cadastrar  Time elapsed: 0.019 sec  <<< ERROR!
 java.util.UnknownFormatConversionException: Conversion = 'F'
 
-When a busca é realizada com sucesso(Scenario: O usurio deseja acessar o site e realizar uma busca)  Time elapsed: 0.002 sec  <<< ERROR!
+When a busca é realizada com sucesso(Scenario: O usurio deseja acessar o site e realizar uma busca)  Time elapsed: 0.001 sec  <<< ERROR!
 cucumber.runtime.CucumberException: 
 Arity mismatch: Step Definition 'steps.PesquisaPageStepsTest.a_busca_é_realizada_com_sucesso(String) in file:/Users/luis.camilo/Documents/Cucumber_sexyHot/target/test-classes/' with pattern [^a busca é realizada com sucesso$] is declared with 1 parameters. However, the gherkin step has 0 arguments []. 
 Step: When a busca é realizada com sucesso
 
-Scenario: O usurio deseja acessar o site e realizar uma busca  Time elapsed: 0.003 sec  <<< ERROR!
+Scenario: O usurio deseja acessar o site e realizar uma busca  Time elapsed: 0.002 sec  <<< ERROR!
 cucumber.runtime.CucumberException: 
 Arity mismatch: Step Definition 'steps.PesquisaPageStepsTest.a_busca_é_realizada_com_sucesso(String) in file:/Users/luis.camilo/Documents/Cucumber_sexyHot/target/test-classes/' with pattern [^a busca é realizada com sucesso$] is declared with 1 parameters. However, the gherkin step has 0 arguments []. 
 Step: When a busca é realizada com sucesso
