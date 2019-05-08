@@ -11,7 +11,7 @@ pipeline {
 
         stage('Run tests') {
             steps {
-            dir ('SexyHot'){
+           sh  dir ('SexyHot'){
             sh 'pwd'
             sh 'mvn test'
 }
