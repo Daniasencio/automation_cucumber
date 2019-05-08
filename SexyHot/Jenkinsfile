@@ -11,10 +11,10 @@ pipeline {
 
         stage('Run tests') {
             steps {
+            sh 'cd SexyHot'
 
-                ls('SexyHot'){
             sh'${MAVEN_HOME}/bin/mvn test -Djenkins'
-            }
+
 
             }
         }
