@@ -11,11 +11,10 @@ pipeline {
 
         stage('Run tests') {
             steps {
-            dir ('SexyHot'){
+            dir ('Cucumber_sexyHot/SexyHot'){
             sh 'pwd'
             sh 'mvn test'
 }
-
             }
         }
 
