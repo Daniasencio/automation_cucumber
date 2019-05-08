@@ -1,8 +1,8 @@
-/Users/luis.camilo/Documents/Cucumber_sexyHot/src/test/java/steps/PesquisaPageStepsTest.java
-/Users/luis.camilo/Documents/Cucumber_sexyHot/src/test/java/steps/Hooks.java
-/Users/luis.camilo/Documents/Cucumber_sexyHot/src/test/java/support/BaseSteps.java
-/Users/luis.camilo/Documents/Cucumber_sexyHot/src/test/java/pages/PesquisaPage.java
-/Users/luis.camilo/Documents/Cucumber_sexyHot/src/test/java/steps/CadastroPageStepsTest.java
-/Users/luis.camilo/Documents/Cucumber_sexyHot/src/test/java/support/DriverQA.java
-/Users/luis.camilo/Documents/Cucumber_sexyHot/src/test/java/pages/CadastroPage.java
-/Users/luis.camilo/Documents/Cucumber_sexyHot/src/test/java/runner/RunnerTest.java
+/Users/luis.camilo/Documents/Cucumber_sexyHot/SexyHot/src/test/java/steps/PesquisaPageStepsTest.java
+/Users/luis.camilo/Documents/Cucumber_sexyHot/SexyHot/src/test/java/support/BaseSteps.java
+/Users/luis.camilo/Documents/Cucumber_sexyHot/SexyHot/src/test/java/pages/CadastroPage.java
+/Users/luis.camilo/Documents/Cucumber_sexyHot/SexyHot/src/test/java/pages/PesquisaPage.java
+/Users/luis.camilo/Documents/Cucumber_sexyHot/SexyHot/src/test/java/steps/Hooks.java
+/Users/luis.camilo/Documents/Cucumber_sexyHot/SexyHot/src/test/java/steps/CadastroPageStepsTest.java
+/Users/luis.camilo/Documents/Cucumber_sexyHot/SexyHot/src/test/java/runner/RunnerTest.java
+/Users/luis.camilo/Documents/Cucumber_sexyHot/SexyHot/src/test/java/support/DriverQA.java
