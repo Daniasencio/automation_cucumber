@@ -5,13 +5,16 @@ pipeline {
         stage('Prepare') {
             steps {
                 checkout scm
+                sh 'ls -la'
             }
         }
 
         stage('Run tests') {
             steps {
 
-                sh 'mvn test'
+                dir('SexyHot'){
+            sh '${MAVEN_HOME}/bin/mvn test -Djenkins'
+            }
 
             }
         }
