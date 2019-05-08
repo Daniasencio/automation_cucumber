@@ -11,9 +11,9 @@ pipeline {
 
         stage('Run tests') {
             steps {
-            sh 'cd SexyHot''
+            sh 'cd SexyHot'
             sh 'pwd'
-            sh'mvn test
+            sh 'mvn test'
 
 
             }
