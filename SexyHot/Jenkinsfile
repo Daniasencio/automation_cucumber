@@ -12,7 +12,8 @@ pipeline {
         stage('Run tests') {
             steps {
            sh  dir ('SexyHot'){
-            sh 'CUCUMBER_OPTIONS= mvn test -Djenkins'
+
+            sh '/Applications/apache-maven-3.6.1/bin/mvn test'
 }
             }
         }
