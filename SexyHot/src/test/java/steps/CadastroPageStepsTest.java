@@ -42,4 +42,5 @@ public class CadastroPageStepsTest extends BaseSteps {
         Assert.assertEquals(value, cadastroPage.assertCadastro());
     }
 
+
 }
