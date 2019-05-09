@@ -39,7 +39,7 @@ public class CadastroPageStepsTest extends BaseSteps {
 
     @When("^O cadastro é realizado com sucesso$")
     public void o_cadastro_é_realizado_com_sucesso (String value) throws Throwable {
-        Assert.assertEquals(value, cadastroPage.assertCadastro());
+       Assert.assertEquals(value, cadastroPage.assertCadastro());
     }
 
 

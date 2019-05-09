@@ -13,7 +13,7 @@ pipeline {
             steps {
            sh  dir ('SexyHot'){
             sh 'pwd'
-            sh '/Applications/apache-maven-3.6.1/bin/mvn test'
+            sh '/Applications/apache-maven-3.6.1/bin/CUCUMBER_OPTIONS= mvn test'
 }
             }
         }
