@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9433bbf8-b417-4b58-8014-5b4d436727ad" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jenkinsSettings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/CadastroPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/CadastroPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/steps/CadastroPageStepsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/CadastroPageStepsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/reports/CucumberReport.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/reports/CucumberReport.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-runner.RunnerTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-runner.RunnerTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/runner.RunnerTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/runner.RunnerTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/CadastroPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/CadastroPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/CadastroPageStepsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/steps/CadastroPageStepsTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/PesquisaPageStepsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/steps/PesquisaPageStepsTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,8 +16,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/steps/CadastroPageStepsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            <state>
+              <caret column="14" lean-forward="true" selection-start-column="14" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -243,7 +234,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557859915120" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557874501113" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -356,29 +347,43 @@
     <history-entry file="RunnerTest - 2019.05.14 at 11h 48m 23s.xml">
       <configuration name="RunnerTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="RunnerTest - 2019.05.14 at 15h 52m 39s.xml">
+      <configuration name="RunnerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RunnerTest - 2019.05.14 at 16h 50m 08s.xml">
+      <configuration name="RunnerTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="828" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" sideWeight="0.8032904" weight="0.35054347" />
-      <window_info anchor="bottom" id="Event Log" sideWeight="0.09298999" side_tool="true" visible="true" weight="0.5054348" />
+      <window_info anchor="bottom" id="Version Control" sideWeight="0.49928468" weight="0.32880434" />
+      <window_info anchor="bottom" id="Terminal" sideWeight="0.8018598" weight="0.35054347" />
+      <window_info active="true" anchor="bottom" id="Event Log" sideWeight="0.50143063" side_tool="true" visible="true" weight="0.32880434" />
       <window_info anchor="bottom" id="Messages" sideWeight="0.49928468" weight="0.32880434" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.90701" visible="true" weight="0.5054348" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.9055794" weight="0.5054348" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4985694" visible="true" weight="0.32880434" />
       <window_info anchor="right" id="Palette" />
       <window_info anchor="right" id="Jenkins" weight="0.32960597" />
       <window_info anchor="right" id="Theme Preview" />
@@ -477,8 +482,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/steps/CadastroPageStepsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        <state>
+          <caret column="14" lean-forward="true" selection-start-column="14" selection-end-column="14" />
         </state>
       </provider>
     </entry>
