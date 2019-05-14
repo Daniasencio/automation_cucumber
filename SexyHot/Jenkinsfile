@@ -17,10 +17,22 @@ pipeline {
 }
             }
         }
-
+cucumber buildStatus: null, fileIncludePattern: '**/cucumber.json', jsonReportDirectory: 'target', sortingMethod: 'ALPHABETICAL'
+            }
         stage('Generate report') {
             steps {
-
+                cucumber buildStatus: 'null',
+                        fileIncludePattern: '**/Cucumber.json',
+                        jsonReportDirectory: 'target',
+                        sortingMethod: 'ALPHABETICAL',
+                        trendsLimit: 10,
+                        classifications: [
+                                [
+                                        'key': 'Browser',
+                                        'value': 'Firefox'
+                                ]
+                        ]
+            }
         }
     }
     post {
