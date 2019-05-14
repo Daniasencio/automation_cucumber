@@ -17,14 +17,11 @@ pipeline {
 }
             }
         }
-cucumber buildStatus: null, fileIncludePattern: '**/cucumber.json', jsonReportDirectory: 'target', sortingMethod: 'ALPHABETICAL'
-            }
+
         stage('Generate report') {
             steps {
-                cucumber buildStatus: 'null',
-                        fileIncludePattern: '**/Cucumber.json',
-                        jsonReportDirectory: 'target',
-                        sortingMethod: 'ALPHABETICAL',
+                cucumber buildStatus: 'SUCESS',
+                        fileIncludePattern: '**/cucumber.json',
                         trendsLimit: 10,
                         classifications: [
                                 [
