@@ -36,7 +36,6 @@ pipeline {
         always {
             echo 'Cleaning Workspace'
 
-
         }
         success {
             echo 'Successfully!'
