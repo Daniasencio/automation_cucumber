@@ -59,7 +59,7 @@ public class CadastroPage extends Hooks {
     }
 
     public void clickCaptcha ( ) throws InterruptedException {
-        driver.click("teste", "id");
+        driver.click("/html[1]/body[1]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/form[1]/div[1]/div[1]/div[1]/div[1]/iframe[1]", "xpath");
         Thread.sleep(2000);
 
     }

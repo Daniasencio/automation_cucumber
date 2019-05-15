@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2715124828,
+              "duration": 1475654295,
               "status": "passed"
             },
             "line": 4,
@@ -27,7 +27,7 @@
         "before": [
           {
             "result": {
-              "duration": 3284958966,
+              "duration": 3132680725,
               "status": "passed"
             },
             "match": {
@@ -42,7 +42,7 @@
         "after": [
           {
             "result": {
-              "duration": 91947023,
+              "duration": 89435794,
               "status": "passed"
             },
             "match": {
@@ -55,7 +55,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2970278050,
+              "duration": 2877132810,
               "status": "passed"
             },
             "line": 8,
@@ -67,7 +67,7 @@
           },
           {
             "result": {
-              "duration": 13578427127,
+              "duration": 8417937791,
               "status": "passed"
             },
             "line": 9,
@@ -79,7 +79,7 @@
           },
           {
             "result": {
-              "duration": 7224964503,
+              "duration": 2055278060,
               "status": "passed"
             },
             "line": 10,
@@ -116,7 +116,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3241217888,
+              "duration": 3708076361,
               "status": "passed"
             },
             "line": 4,
@@ -132,7 +132,7 @@
         "before": [
           {
             "result": {
-              "duration": 1739596322,
+              "duration": 1588054173,
               "status": "passed"
             },
             "match": {
@@ -147,7 +147,7 @@
         "after": [
           {
             "result": {
-              "duration": 439174977,
+              "duration": 186657813,
               "status": "passed"
             },
             "match": {
@@ -160,9 +160,8 @@
         "steps": [
           {
             "result": {
-              "duration": 10032139164,
-              "error_message": "java.lang.NullPointerException\n\tat support.DriverQA.click(DriverQA.java:110)\n\tat pages.PesquisaPage.clickSim(PesquisaPage.java:46)\n\tat steps.PesquisaPageStepsTest.e_insere_alguma_palavra_na_barra_de_busca(PesquisaPageStepsTest.java:24)\n\tat ✽.Then e insere alguma palavra na barra de busca(pesquisa.feature:8)\n",
-              "status": "failed"
+              "duration": 4412741330,
+              "status": "passed"
             },
             "line": 8,
             "name": "e insere alguma palavra na barra de busca",
@@ -173,11 +172,9 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 2239309777,
+              "status": "passed"
             },
-            "output": [
-              "url: https://sexyhot.globo.com/"
-            ],
             "line": 9,
             "name": "Clico no botao buscar",
             "match": {
