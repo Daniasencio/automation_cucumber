@@ -11,10 +11,10 @@ pipeline {
 
         stage('Run tests') {
             steps {
-           sh  dir ('SexyHot'){
-
+            dir ('SexyHot'){
             sh '/Applications/apache-maven-3.6.1/bin/mvn test'
 }
+
             }
         }
 
@@ -36,10 +36,11 @@ pipeline {
         always {
             echo 'Cleaning Workspace'
 
+
         }
         success {
             echo 'Successfully!'
-
+            cleanWS()
         }
         failure {
             echo 'Failed!'

@@ -2,7 +2,6 @@ package pages;
 
 import org.junit.After;
 import org.junit.Before;
-import org.openqa.selenium.By;
 import steps.Hooks;
 import support.DriverQA;
 
@@ -51,26 +50,36 @@ public class CadastroPage extends Hooks {
         driver.click("/html/body/div[1]/main/div[3]/div/div/div[2]/div[2]/welcome-link/div/a", "xpath");
         Thread.sleep(2000);
 
-    } public void clickTermsOfUse( ) throws InterruptedException {
+    }
+
+    public void clickTermsOfUse ( ) throws InterruptedException {
         driver.click("/html[1]/body[1]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/form[1]/div[2]/div[1]/input[1]", "xpath");
         Thread.sleep(2000);
 
-    }  public void clickCaptcha( ) throws InterruptedException {
+    }
+
+    public void clickCaptcha ( ) throws InterruptedException {
         driver.click("/html[1]/body[1]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/form[1]/div[1]/div[1]/div[1]/div[1]/iframe[1]", "xpath");
         Thread.sleep(2000);
 
- }  public void clickEnter( ) throws InterruptedException {
+    }
+
+    public void clickEnter ( ) throws InterruptedException {
         driver.click("/html[1]/body[1]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/form[1]/div[3]/button[1]", "xpath");
         Thread.sleep(2000);
+    }
+
+//ASSERT TEXT
+    public String Assert ( ) throws InterruptedException {
+       return driver.getText("/html[1]/body[1]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/form[1]/div[3]/button[1]", "xpath");
+
 
     }
- public DriverQA assertCadastro( ) throws InterruptedException {
-        driver.findElement(By.xpath("/html[1]/body[1]/div[1]/main[1]/div[3]/div[1]/div[1]/div[2]/welcome-link[1]/div[1]/span[1]")).isEnabled();
-        return driver;
 
 }
+
 //    public void clickCadastrae ( ) throws InterruptedException {
 //        driver.switchTo().frame("iframe").findElement(By.xpat
 //
 //    }
-}
+

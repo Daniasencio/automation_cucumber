@@ -27,7 +27,7 @@ public class CadastroPageStepsTest extends BaseSteps {
         cadastroPage.inputNome();
         cadastroPage.inputEmail();
         cadastroPage.inputSenha();
-        //  cadastroPage.clickCaptcha();
+//          cadastroPage.clickCaptcha();
         cadastroPage.clickTermsOfUse();
 
     }
@@ -36,10 +36,10 @@ public class CadastroPageStepsTest extends BaseSteps {
     public void clico_no_botao_cadastre_se ( ) throws Throwable {
         cadastroPage.clickEnter();
     }
-
+//ASSERT TEXT EXAMPLES
     @When("^O cadastro é realizado com sucesso$")
     public void o_cadastro_é_realizado_com_sucesso (String value) throws Throwable {
-       Assert.assertEquals(value, cadastroPage.assertCadastro());
+       Assert.assertEquals(value, cadastroPage.Assert());
     }
 
 
