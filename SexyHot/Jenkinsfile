@@ -22,11 +22,11 @@ pipeline {
             steps {
                 cucumber buildStatus: 'UNSTABLE',
                         fileIncludePattern: '**/CucumberReport.json',
-                        trendsLimit: 20,
+                        trendsLimit: 10,
                         classifications: [
                                 [
                                         'key': 'Browser',
-                                        'value': 'chrome'
+                                        'value': 'Firefox'
                                 ]
                         ]
             }
