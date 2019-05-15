@@ -37,6 +37,7 @@ public class PesquisaPage extends Hooks {
 
     }
 
+
 public void clickPesquisa ( ) throws InterruptedException {
     driver.click("/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/*", "xpath");
     Thread.sleep(2000);
