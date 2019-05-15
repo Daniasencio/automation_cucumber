@@ -40,7 +40,7 @@ pipeline {
         }
         success {
             echo 'Successfully!'
-            cleanWS()
+
         }
         failure {
             echo 'Failed!'
