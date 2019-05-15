@@ -2,6 +2,7 @@ pipeline {
     agent  any
 
     stages {
+
         stage('Prepare') {
             steps {
                 checkout scm
@@ -9,46 +10,23 @@ pipeline {
             }
         }
 
+
         stage('Run tests') {
             steps {
-           sh  dir ('SexyHot'){
 
-            sh '/Applications/apache-maven-3.6.1/bin/mvn test'
-}
+
+            sh '/Applications/apache-maen-3.6.1/bin/mvn test'
             }
         }
+
 
         stage('Generate report') {
             steps {
                 cucumber buildStatus: 'UNSTABLE',
                         fileIncludePattern: '**/cucumber.json',
-                        trendsLimit: 10,
-                        classifications: [
-                                [
-                                        'key': 'Browser',
-                                        'value': 'Firefox'
-                                ]
-                        ]
+                        jsonReportDirectory: 'target',
+
             }
         }
     }
-    post {
-        always {
-            echo 'Cleaning Workspace'
-
-        }
-        success {
-            echo 'Successfully!'
-
-        }
-        failure {
-            echo 'Failed!'
-        }
-        unstable {
-            echo 'This will run only if the run was marked as unstable'
-        }
-        changed {
-            echo 'This will run only if the state of the Pipeline has changed'
-        }
     }
-}
