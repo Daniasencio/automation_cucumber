@@ -21,7 +21,7 @@ pipeline {
         stage('Generate report') {
             steps {
                 cucumber buildStatus: 'UNSTABLE',
-                        fileIncludePattern: 'target/reports/cucumber.json',
+                        fileIncludePattern: '**/CucumberReport.json',
                         trendsLimit: 10,
                         classifications: [
                                 [
@@ -35,6 +35,7 @@ pipeline {
     post {
         always {
             echo 'Cleaning Workspace'
+
 
         }
         success {
