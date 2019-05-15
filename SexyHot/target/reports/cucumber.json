@@ -1,0 +1,203 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2711509673,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "O usuario acessa o site",
+            "match": {
+              "location": "CadastroPageStepsTest.o_usuario_acessa_o_site()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3050818665,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "O usurio deseja acessar o site e se cadastrar",
+        "description": "",
+        "id": "realizar-cadastro-no-site;o-usurio-deseja-acessar-o-site-e-se-cadastrar",
+        "after": [
+          {
+            "result": {
+              "duration": 84904990,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7287662130,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "clica no botao cadastrar",
+            "match": {
+              "location": "CadastroPageStepsTest.clica_no_botao_cadastrar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 13510480102,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Isiro meus dados",
+            "match": {
+              "location": "CadastroPageStepsTest.isiro_meus_dados()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7273096702,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Clico no botao cadastre-se",
+            "match": {
+              "location": "CadastroPageStepsTest.clico_no_botao_cadastre_se()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@Case1"
+          }
+        ]
+      }
+    ],
+    "name": "Realizar cadastro no site",
+    "description": "",
+    "id": "realizar-cadastro-no-site",
+    "keyword": "Feature",
+    "uri": "cadastro.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5072959912,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "O usuario acessa o site sexyHOT",
+            "match": {
+              "location": "PesquisaPageStepsTest.o_usuario_acessa_o_site_sexyHOT()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2095147632,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "O usurio deseja acessar o site e realizar uma busca",
+        "description": "",
+        "id": "realizar-pesquisa-no-site;o-usurio-deseja-acessar-o-site-e-realizar-uma-busca",
+        "after": [
+          {
+            "result": {
+              "duration": 468171756,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10068675811,
+              "error_message": "java.lang.NullPointerException\n\tat support.DriverQA.click(DriverQA.java:110)\n\tat pages.PesquisaPage.clickSim(PesquisaPage.java:46)\n\tat steps.PesquisaPageStepsTest.e_insere_alguma_palavra_na_barra_de_busca(PesquisaPageStepsTest.java:24)\n\tat ✽.Then e insere alguma palavra na barra de busca(pesquisa.feature:8)\n",
+              "status": "failed"
+            },
+            "line": 8,
+            "name": "e insere alguma palavra na barra de busca",
+            "match": {
+              "location": "PesquisaPageStepsTest.e_insere_alguma_palavra_na_barra_de_busca()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "output": [
+              "url: https://sexyhot.globo.com/"
+            ],
+            "line": 9,
+            "name": "Clico no botao buscar",
+            "match": {
+              "location": "PesquisaPageStepsTest.clico_no_botao_buscar()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@Case2"
+          }
+        ]
+      }
+    ],
+    "name": "Realizar pesquisa no site",
+    "description": "",
+    "id": "realizar-pesquisa-no-site",
+    "keyword": "Feature",
+    "uri": "pesquisa.feature"
+  }
+]

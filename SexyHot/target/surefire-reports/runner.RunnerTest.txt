@@ -1,4 +1,10 @@
 -------------------------------------------------------------------------------
 Test set: runner.RunnerTest
 -------------------------------------------------------------------------------
-Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 33.36 sec - in runner.RunnerTest
+Tests run: 9, Failures: 0, Errors: 2, Skipped: 1, Time elapsed: 52.184 sec <<< FAILURE! - in runner.RunnerTest
+Then e insere alguma palavra na barra de busca(Scenario: O usurio deseja acessar o site e realizar uma busca)  Time elapsed: 0.006 sec  <<< ERROR!
+java.lang.NullPointerException
+
+Scenario: O usurio deseja acessar o site e realizar uma busca  Time elapsed: 0.006 sec  <<< ERROR!
+java.lang.NullPointerException
+

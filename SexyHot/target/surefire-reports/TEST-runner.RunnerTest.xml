@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="runner.RunnerTest" time="33.36" tests="9" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="runner.RunnerTest" time="52.184" tests="9" errors="2" skipped="1" failures="0">
   <properties>
+    <property name="idea.version" value="2018.3.4"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="11.0.3+12-LTS"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-11.0.3.jdk/Contents/Home/lib"/>
@@ -24,26 +25,24 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="os.name" value="Mac OS X"/>
-    <property name="classworlds.conf" value="/Applications/apache-maven-3.6.1/bin/m2.conf"/>
+    <property name="classworlds.conf" value="/Applications/IntelliJ IDEA CE.app/Contents/plugins/maven/lib/maven3/bin/m2.conf"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
     <property name="java.library.path" value="/Users/Shared/Jenkins/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
-    <property name="maven.conf" value="/Applications/apache-maven-3.6.1/conf"/>
     <property name="jdk.debug" value="release"/>
     <property name="java.class.version" value="55.0"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="os.version" value="10.11.6"/>
-    <property name="library.jansi.path" value="/Applications/apache-maven-3.6.1/lib/jansi-native"/>
     <property name="user.home" value="/Users/Shared/Jenkins"/>
     <property name="user.timezone" value="America/Sao_Paulo"/>
     <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
     <property name="file.encoding" value="UTF-8"/>
     <property name="java.specification.version" value="11"/>
     <property name="user.name" value="jenkins"/>
-    <property name="java.class.path" value="/Applications/apache-maven-3.6.1/boot/plexus-classworlds-2.6.0.jar"/>
+    <property name="java.class.path" value="/Applications/IntelliJ IDEA CE.app/Contents/plugins/maven/lib/maven3/boot/plexus-classworlds-2.5.2.jar"/>
     <property name="java.vm.specification.version" value="11"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2018.3.4 org.apache.maven.plugins:maven-surefire-plugin:2.19.1:test"/>
     <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-11.0.3.jdk/Contents/Home"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -51,7 +50,7 @@
     <property name="java.vm.info" value="mixed mode"/>
     <property name="java.version" value="11.0.3"/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="maven.home" value="/Applications/apache-maven-3.6.1"/>
+    <property name="maven.home" value="/Applications/IntelliJ IDEA CE.app/Contents/plugins/maven/lib/maven3"/>
     <property name="file.separator" value="/"/>
     <property name="java.version.date" value="2019-04-16"/>
     <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
@@ -64,9 +63,17 @@
   <testcase name="And clica no botao cadastrar" classname="Scenario: O usurio deseja acessar o site e se cadastrar" time="0"/>
   <testcase name="And Isiro meus dados" classname="Scenario: O usurio deseja acessar o site e se cadastrar" time="0"/>
   <testcase name="Then Clico no botao cadastre-se" classname="Scenario: O usurio deseja acessar o site e se cadastrar" time="0"/>
-  <testcase name="Scenario: O usurio deseja acessar o site e se cadastrar" classname="Scenario: O usurio deseja acessar o site e se cadastrar" time="0.09"/>
+  <testcase name="Scenario: O usurio deseja acessar o site e se cadastrar" classname="Scenario: O usurio deseja acessar o site e se cadastrar" time="0.086"/>
   <testcase name="Given O usuario acessa o site sexyHOT" classname="Scenario: O usurio deseja acessar o site e realizar uma busca" time="0"/>
-  <testcase name="Then e insere alguma palavra na barra de busca" classname="Scenario: O usurio deseja acessar o site e realizar uma busca" time="0"/>
-  <testcase name="And Clico no botao buscar" classname="Scenario: O usurio deseja acessar o site e realizar uma busca" time="0"/>
-  <testcase name="Scenario: O usurio deseja acessar o site e realizar uma busca" classname="Scenario: O usurio deseja acessar o site e realizar uma busca" time="0.175"/>
+  <testcase name="Then e insere alguma palavra na barra de busca" classname="Scenario: O usurio deseja acessar o site e realizar uma busca" time="0.006">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+</error>
+  </testcase>
+  <testcase name="Scenario: O usurio deseja acessar o site e realizar uma busca" classname="Scenario: O usurio deseja acessar o site e realizar uma busca" time="0.006">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+</error>
+  </testcase>
+  <testcase name="And Clico no botao buscar" classname="Scenario: O usurio deseja acessar o site e realizar uma busca" time="0">
+    <skipped/>
+  </testcase>
 </testsuite>
