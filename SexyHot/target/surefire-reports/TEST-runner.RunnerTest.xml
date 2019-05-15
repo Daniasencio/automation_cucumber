@@ -1,230 +1,87 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="runner.RunnerTest" time="11.82" tests="11" errors="4" skipped="7" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="runner.RunnerTest" time="28.093" tests="10" errors="3" skipped="1" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
-    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib"/>
-    <property name="java.vm.version" value="25.201-b09"/>
+    <property name="java.vm.version" value="11.0.3+12-LTS"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-11.0.3.jdk/Contents/Home/lib"/>
     <property name="gopherProxySet" value="false"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/Shared/Jenkins/Documents/automation_cucumber/SexyHot"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="/Users/luis.camilo/Documents/Cucumber_sexyHot/SexyHot"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
-    <property name="path.separator" value=":"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=":"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="sun.os.patch.level" value="unknown"/>
     <property name="user.country" value="BR"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="sun.os.patch.level" value="unknown"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="/Users/luis.camilo/Documents/Cucumber_sexyHot/SexyHot"/>
-    <property name="java.runtime.version" value="1.8.0_201-b09"/>
+    <property name="user.dir" value="/Users/Shared/Jenkins/Documents/automation_cucumber/SexyHot"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="11.0.3+12-LTS"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
-    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/endorsed"/>
     <property name="os.arch" value="x86_64"/>
-    <property name="java.io.tmpdir" value="/var/folders/5r/h6zgdb8s2db0rqpvrjfhcb_m0000gp/T/"/>
+    <property name="java.io.tmpdir" value="/var/folders/6l/2rv1_pvn1b32c8ncyw0z3mdr00008_/T/"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="os.name" value="Mac OS X"/>
     <property name="classworlds.conf" value="/Applications/apache-maven-3.6.1/bin/m2.conf"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.library.path" value="/Users/luis.camilo/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.library.path" value="/Users/Shared/Jenkins/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
     <property name="maven.conf" value="/Applications/apache-maven-3.6.1/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="55.0"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="os.version" value="10.14.4"/>
+    <property name="os.version" value="10.11.6"/>
     <property name="library.jansi.path" value="/Applications/apache-maven-3.6.1/lib/jansi-native"/>
-    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
-    <property name="user.home" value="/Users/luis.camilo"/>
+    <property name="user.home" value="/Users/Shared/Jenkins"/>
     <property name="user.timezone" value="America/Sao_Paulo"/>
     <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
-    <property name="java.specification.version" value="1.8"/>
     <property name="file.encoding" value="UTF-8"/>
-    <property name="user.name" value="luis.camilo"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="user.name" value="jenkins"/>
     <property name="java.class.path" value="/Applications/apache-maven-3.6.1/boot/plexus-classworlds-2.6.0.jar"/>
-    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="java.vm.specification.version" value="11"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre"/>
     <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-11.0.3.jdk/Contents/Home"/>
+    <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="user.language" value="pt"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
     <property name="java.vm.info" value="mixed mode"/>
-    <property name="java.version" value="1.8.0_201"/>
-    <property name="java.ext.dirs" value="/Users/luis.camilo/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
-    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/classes"/>
+    <property name="java.version" value="11.0.3"/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="maven.home" value="/Applications/apache-maven-3.6.1"/>
     <property name="file.separator" value="/"/>
-    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
-    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.version.date" value="2019-04-16"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
     <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
-    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
-    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="18.9"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="Scenario: O usurio deseja acessar o site e se cadastrar" classname="Scenario: O usurio deseja acessar o site e se cadastrar" time="6.534">
-    <error message="Failed to instantiate class steps.Hooks" type="cucumber.runtime.CucumberException">cucumber.runtime.CucumberException: Failed to instantiate class steps.Hooks
-Caused by: java.lang.reflect.InvocationTargetException
-Caused by: org.openqa.selenium.SessionNotCreatedException: 
-session not created: This version of ChromeDriver only supports Chrome version 75
-Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
-System info: host: '000841-wl.lab.dextra.com.br', ip: 'fe80:0:0:0:c50:1aab:82ca:d93e%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.4', java.version: '1.8.0_201'
-Driver info: driver.version: ChromeDriver
-remote stacktrace: 0   chromedriver                        0x00000001042b18e9 chromedriver + 3594473
-1   chromedriver                        0x0000000104241543 chromedriver + 3134787
-2   chromedriver                        0x0000000103fed29f chromedriver + 692895
-3   chromedriver                        0x0000000103f5b72b chromedriver + 96043
-4   chromedriver                        0x0000000103f577d8 chromedriver + 79832
-5   chromedriver                        0x0000000103f836db chromedriver + 259803
-6   chromedriver                        0x0000000103f80d13 chromedriver + 249107
-7   chromedriver                        0x0000000103f5d78a chromedriver + 104330
-8   chromedriver                        0x0000000103f5e7d5 chromedriver + 108501
-9   chromedriver                        0x0000000104270555 chromedriver + 3327317
-10  chromedriver                        0x000000010427be60 chromedriver + 3374688
-11  chromedriver                        0x000000010427bbf8 chromedriver + 3374072
-12  chromedriver                        0x000000010424fd39 chromedriver + 3194169
-13  chromedriver                        0x000000010427c6d8 chromedriver + 3376856
-14  chromedriver                        0x0000000104263f27 chromedriver + 3276583
-15  chromedriver                        0x0000000104299064 chromedriver + 3493988
-16  chromedriver                        0x00000001042b7617 chromedriver + 3618327
-17  libsystem_pthread.dylib             0x00007fff5ed472eb _pthread_body + 126
-18  libsystem_pthread.dylib             0x00007fff5ed4a249 _pthread_start + 66
-19  libsystem_pthread.dylib             0x00007fff5ed4640d thread_start + 13
-
+  <testcase name="Given O usuario acessa o site" classname="Scenario: O usurio deseja acessar o site e se cadastrar" time="0.002"/>
+  <testcase name="And clica no botao cadastrar" classname="Scenario: O usurio deseja acessar o site e se cadastrar" time="0"/>
+  <testcase name="And Isiro meus dados" classname="Scenario: O usurio deseja acessar o site e se cadastrar" time="0.004">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
 </error>
-    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
-SLF4J: Defaulting to no-operation (NOP) logger implementation
-SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-Starting ChromeDriver 75.0.3770.8 (681f24ea911fe754973dda2fdc6d2a2e159dd300-refs/branch-heads/3770@{#40}) on port 47659
-Only local connections are allowed.
-Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-]]></system-err>
   </testcase>
-  <testcase name="Scenario: O usurio deseja acessar o site e se cadastrar" classname="Scenario: O usurio deseja acessar o site e se cadastrar" time="8.101">
-    <error message="Failed to instantiate class steps.Hooks" type="cucumber.runtime.CucumberException">cucumber.runtime.CucumberException: Failed to instantiate class steps.Hooks
-Caused by: java.lang.reflect.InvocationTargetException
-Caused by: org.openqa.selenium.SessionNotCreatedException: 
-session not created: This version of ChromeDriver only supports Chrome version 75
-Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
-System info: host: '000841-wl.lab.dextra.com.br', ip: 'fe80:0:0:0:c50:1aab:82ca:d93e%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.4', java.version: '1.8.0_201'
-Driver info: driver.version: ChromeDriver
-remote stacktrace: 0   chromedriver                        0x0000000102eb78e9 chromedriver + 3594473
-1   chromedriver                        0x0000000102e47543 chromedriver + 3134787
-2   chromedriver                        0x0000000102bf329f chromedriver + 692895
-3   chromedriver                        0x0000000102b6172b chromedriver + 96043
-4   chromedriver                        0x0000000102b5d7d8 chromedriver + 79832
-5   chromedriver                        0x0000000102b896db chromedriver + 259803
-6   chromedriver                        0x0000000102b86d13 chromedriver + 249107
-7   chromedriver                        0x0000000102b6378a chromedriver + 104330
-8   chromedriver                        0x0000000102b647d5 chromedriver + 108501
-9   chromedriver                        0x0000000102e76555 chromedriver + 3327317
-10  chromedriver                        0x0000000102e81e60 chromedriver + 3374688
-11  chromedriver                        0x0000000102e81bf8 chromedriver + 3374072
-12  chromedriver                        0x0000000102e55d39 chromedriver + 3194169
-13  chromedriver                        0x0000000102e826d8 chromedriver + 3376856
-14  chromedriver                        0x0000000102e69f27 chromedriver + 3276583
-15  chromedriver                        0x0000000102e9f064 chromedriver + 3493988
-16  chromedriver                        0x0000000102ebd617 chromedriver + 3618327
-17  libsystem_pthread.dylib             0x00007fff5ed472eb _pthread_body + 126
-18  libsystem_pthread.dylib             0x00007fff5ed4a249 _pthread_start + 66
-19  libsystem_pthread.dylib             0x00007fff5ed4640d thread_start + 13
-
+  <testcase name="Scenario: O usurio deseja acessar o site e se cadastrar" classname="Scenario: O usurio deseja acessar o site e se cadastrar" time="0.004">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
 </error>
-    <system-err><![CDATA[Starting ChromeDriver 75.0.3770.8 (681f24ea911fe754973dda2fdc6d2a2e159dd300-refs/branch-heads/3770@{#40}) on port 36175
-Only local connections are allowed.
-Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-]]></system-err>
   </testcase>
-  <testcase name="Given O usuario acessa o site" classname="Scenario: O usurio deseja acessar o site e se cadastrar" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="And clica no botao cadastrar" classname="Scenario: O usurio deseja acessar o site e se cadastrar" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="And Isiro meus dados" classname="Scenario: O usurio deseja acessar o site e se cadastrar" time="0">
-    <skipped/>
+  <testcase name="Scenario: O usurio deseja acessar o site e se cadastrar" classname="Scenario: O usurio deseja acessar o site e se cadastrar" time="0.02">
+    <error message="Conversion = &apos;F&apos;" type="java.util.UnknownFormatConversionException">java.util.UnknownFormatConversionException: Conversion = 'F'
+</error>
+    <system-out><![CDATA[
+--- Scenario O usurio deseja acessar o site e se cadastrar executed ---
+]]></system-out>
   </testcase>
   <testcase name="Then Clico no botao cadastre-se" classname="Scenario: O usurio deseja acessar o site e se cadastrar" time="0">
     <skipped/>
   </testcase>
-  <testcase name="Scenario: O usurio deseja acessar o site e realizar uma busca" classname="Scenario: O usurio deseja acessar o site e realizar uma busca" time="1.539">
-    <error message="Failed to instantiate class steps.Hooks" type="cucumber.runtime.CucumberException">cucumber.runtime.CucumberException: Failed to instantiate class steps.Hooks
-Caused by: java.lang.reflect.InvocationTargetException
-Caused by: org.openqa.selenium.SessionNotCreatedException: 
-session not created: This version of ChromeDriver only supports Chrome version 75
-Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
-System info: host: '000841-wl.lab.dextra.com.br', ip: 'fe80:0:0:0:c50:1aab:82ca:d93e%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.4', java.version: '1.8.0_201'
-Driver info: driver.version: ChromeDriver
-remote stacktrace: 0   chromedriver                        0x000000010bd808e9 chromedriver + 3594473
-1   chromedriver                        0x000000010bd10543 chromedriver + 3134787
-2   chromedriver                        0x000000010babc29f chromedriver + 692895
-3   chromedriver                        0x000000010ba2a72b chromedriver + 96043
-4   chromedriver                        0x000000010ba267d8 chromedriver + 79832
-5   chromedriver                        0x000000010ba526db chromedriver + 259803
-6   chromedriver                        0x000000010ba4fd13 chromedriver + 249107
-7   chromedriver                        0x000000010ba2c78a chromedriver + 104330
-8   chromedriver                        0x000000010ba2d7d5 chromedriver + 108501
-9   chromedriver                        0x000000010bd3f555 chromedriver + 3327317
-10  chromedriver                        0x000000010bd4ae60 chromedriver + 3374688
-11  chromedriver                        0x000000010bd4abf8 chromedriver + 3374072
-12  chromedriver                        0x000000010bd1ed39 chromedriver + 3194169
-13  chromedriver                        0x000000010bd4b6d8 chromedriver + 3376856
-14  chromedriver                        0x000000010bd32f27 chromedriver + 3276583
-15  chromedriver                        0x000000010bd68064 chromedriver + 3493988
-16  chromedriver                        0x000000010bd86617 chromedriver + 3618327
-17  libsystem_pthread.dylib             0x00007fff5ed472eb _pthread_body + 126
-18  libsystem_pthread.dylib             0x00007fff5ed4a249 _pthread_start + 66
-19  libsystem_pthread.dylib             0x00007fff5ed4640d thread_start + 13
-
-</error>
-    <system-err><![CDATA[Starting ChromeDriver 75.0.3770.8 (681f24ea911fe754973dda2fdc6d2a2e159dd300-refs/branch-heads/3770@{#40}) on port 7371
-Only local connections are allowed.
-Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-]]></system-err>
-  </testcase>
-  <testcase name="Scenario: O usurio deseja acessar o site e realizar uma busca" classname="Scenario: O usurio deseja acessar o site e realizar uma busca" time="3.307">
-    <error message="Failed to instantiate class steps.Hooks" type="cucumber.runtime.CucumberException">cucumber.runtime.CucumberException: Failed to instantiate class steps.Hooks
-Caused by: java.lang.reflect.InvocationTargetException
-Caused by: org.openqa.selenium.SessionNotCreatedException: 
-session not created: This version of ChromeDriver only supports Chrome version 75
-Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
-System info: host: '000841-wl.lab.dextra.com.br', ip: 'fe80:0:0:0:c50:1aab:82ca:d93e%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.4', java.version: '1.8.0_201'
-Driver info: driver.version: ChromeDriver
-remote stacktrace: 0   chromedriver                        0x00000001065528e9 chromedriver + 3594473
-1   chromedriver                        0x00000001064e2543 chromedriver + 3134787
-2   chromedriver                        0x000000010628e29f chromedriver + 692895
-3   chromedriver                        0x00000001061fc72b chromedriver + 96043
-4   chromedriver                        0x00000001061f87d8 chromedriver + 79832
-5   chromedriver                        0x00000001062246db chromedriver + 259803
-6   chromedriver                        0x0000000106221d13 chromedriver + 249107
-7   chromedriver                        0x00000001061fe78a chromedriver + 104330
-8   chromedriver                        0x00000001061ff7d5 chromedriver + 108501
-9   chromedriver                        0x0000000106511555 chromedriver + 3327317
-10  chromedriver                        0x000000010651ce60 chromedriver + 3374688
-11  chromedriver                        0x000000010651cbf8 chromedriver + 3374072
-12  chromedriver                        0x00000001064f0d39 chromedriver + 3194169
-13  chromedriver                        0x000000010651d6d8 chromedriver + 3376856
-14  chromedriver                        0x0000000106504f27 chromedriver + 3276583
-15  chromedriver                        0x000000010653a064 chromedriver + 3493988
-16  chromedriver                        0x0000000106558617 chromedriver + 3618327
-17  libsystem_pthread.dylib             0x00007fff5ed472eb _pthread_body + 126
-18  libsystem_pthread.dylib             0x00007fff5ed4a249 _pthread_start + 66
-19  libsystem_pthread.dylib             0x00007fff5ed4640d thread_start + 13
-
-</error>
-    <system-err><![CDATA[Starting ChromeDriver 75.0.3770.8 (681f24ea911fe754973dda2fdc6d2a2e159dd300-refs/branch-heads/3770@{#40}) on port 30202
-Only local connections are allowed.
-Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-]]></system-err>
-  </testcase>
-  <testcase name="Given O usuario acessa o site sexyHOT" classname="Scenario: O usurio deseja acessar o site e realizar uma busca" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="Then e insere alguma palavra na barra de busca" classname="Scenario: O usurio deseja acessar o site e realizar uma busca" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="And Clico no botao buscar" classname="Scenario: O usurio deseja acessar o site e realizar uma busca" time="0">
-    <skipped/>
-  </testcase>
+  <testcase name="Given O usuario acessa o site sexyHOT" classname="Scenario: O usurio deseja acessar o site e realizar uma busca" time="0"/>
+  <testcase name="Then e insere alguma palavra na barra de busca" classname="Scenario: O usurio deseja acessar o site e realizar uma busca" time="0"/>
+  <testcase name="And Clico no botao buscar" classname="Scenario: O usurio deseja acessar o site e realizar uma busca" time="0"/>
+  <testcase name="Scenario: O usurio deseja acessar o site e realizar uma busca" classname="Scenario: O usurio deseja acessar o site e realizar uma busca" time="0.148"/>
 </testsuite>
