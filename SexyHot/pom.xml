@@ -98,7 +98,7 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>2.19.1</version>
                 <configuration>
-                    <testFailureIgnore>false</testFailureIgnore>
+                    <testFailureIgnore>true</testFailureIgnore>
                 </configuration>
             </plugin>
             <plugin>
@@ -133,9 +133,7 @@
                         <configuration>
                             <projectName>${project.name} - System Testing Execution Report</projectName>
                             <outputDirectory>${project.build.directory}/reports</outputDirectory>
-                            <jsonFiles>
-                                <param>${project.build.directory}/reports/CucumberReport.json</param>
-                            </jsonFiles>
+                            <cucumberOutput>${project.build.directory}/reports/CucumberReport.json</cucumberOutput>
                             <parallelTesting>false</parallelTesting>
                         </configuration>
                     </execution>
