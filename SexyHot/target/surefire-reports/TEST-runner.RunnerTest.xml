@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="runner.RunnerTest" time="19.268" tests="10" errors="3" skipped="1" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="runner.RunnerTest" time="33.36" tests="9" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="11.0.3+12-LTS"/>
@@ -61,27 +61,12 @@
     <property name="sun.cpu.isalist" value=""/>
   </properties>
   <testcase name="Given O usuario acessa o site" classname="Scenario: O usurio deseja acessar o site e se cadastrar" time="0.001"/>
-  <testcase name="And clica no botao cadastrar" classname="Scenario: O usurio deseja acessar o site e se cadastrar" time="0.001"/>
-  <testcase name="And Isiro meus dados" classname="Scenario: O usurio deseja acessar o site e se cadastrar" time="0.004">
-    <error type="java.lang.NullPointerException">java.lang.NullPointerException
-</error>
-  </testcase>
-  <testcase name="Scenario: O usurio deseja acessar o site e se cadastrar" classname="Scenario: O usurio deseja acessar o site e se cadastrar" time="0.004">
-    <error type="java.lang.NullPointerException">java.lang.NullPointerException
-</error>
-  </testcase>
-  <testcase name="Scenario: O usurio deseja acessar o site e se cadastrar" classname="Scenario: O usurio deseja acessar o site e se cadastrar" time="0.024">
-    <error message="Conversion = &apos;F&apos;" type="java.util.UnknownFormatConversionException">java.util.UnknownFormatConversionException: Conversion = 'F'
-</error>
-    <system-out><![CDATA[
---- Scenario O usurio deseja acessar o site e se cadastrar executed ---
-]]></system-out>
-  </testcase>
-  <testcase name="Then Clico no botao cadastre-se" classname="Scenario: O usurio deseja acessar o site e se cadastrar" time="0">
-    <skipped/>
-  </testcase>
+  <testcase name="And clica no botao cadastrar" classname="Scenario: O usurio deseja acessar o site e se cadastrar" time="0"/>
+  <testcase name="And Isiro meus dados" classname="Scenario: O usurio deseja acessar o site e se cadastrar" time="0"/>
+  <testcase name="Then Clico no botao cadastre-se" classname="Scenario: O usurio deseja acessar o site e se cadastrar" time="0"/>
+  <testcase name="Scenario: O usurio deseja acessar o site e se cadastrar" classname="Scenario: O usurio deseja acessar o site e se cadastrar" time="0.09"/>
   <testcase name="Given O usuario acessa o site sexyHOT" classname="Scenario: O usurio deseja acessar o site e realizar uma busca" time="0"/>
   <testcase name="Then e insere alguma palavra na barra de busca" classname="Scenario: O usurio deseja acessar o site e realizar uma busca" time="0"/>
   <testcase name="And Clico no botao buscar" classname="Scenario: O usurio deseja acessar o site e realizar uma busca" time="0"/>
-  <testcase name="Scenario: O usurio deseja acessar o site e realizar uma busca" classname="Scenario: O usurio deseja acessar o site e realizar uma busca" time="0.173"/>
+  <testcase name="Scenario: O usurio deseja acessar o site e realizar uma busca" classname="Scenario: O usurio deseja acessar o site e realizar uma busca" time="0.175"/>
 </testsuite>

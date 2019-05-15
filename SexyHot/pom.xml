@@ -132,9 +132,9 @@
                         </goals>
                         <configuration>
                             <projectName>${project.name} - System Testing Execution Report</projectName>
-                            <outputDirectory>${project.build.directory}/reports</outputDirectory>
+                            <outputDirectory>${project.build.directory}/formated-report</outputDirectory>
                             <jsonFiles>
-                                <param>${project.build.directory}/reports/CucumberReport.json</param>
+                                <param>${project.build.directory}/formated-report/index.html</param>
                             </jsonFiles>
                             <parallelTesting>false</parallelTesting>
                         </configuration>
