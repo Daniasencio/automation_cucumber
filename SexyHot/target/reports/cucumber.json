@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2711509673,
+              "duration": 2715124828,
               "status": "passed"
             },
             "line": 4,
@@ -27,7 +27,7 @@
         "before": [
           {
             "result": {
-              "duration": 3050818665,
+              "duration": 3284958966,
               "status": "passed"
             },
             "match": {
@@ -42,7 +42,7 @@
         "after": [
           {
             "result": {
-              "duration": 84904990,
+              "duration": 91947023,
               "status": "passed"
             },
             "match": {
@@ -55,7 +55,7 @@
         "steps": [
           {
             "result": {
-              "duration": 7287662130,
+              "duration": 2970278050,
               "status": "passed"
             },
             "line": 8,
@@ -67,7 +67,7 @@
           },
           {
             "result": {
-              "duration": 13510480102,
+              "duration": 13578427127,
               "status": "passed"
             },
             "line": 9,
@@ -79,7 +79,7 @@
           },
           {
             "result": {
-              "duration": 7273096702,
+              "duration": 7224964503,
               "status": "passed"
             },
             "line": 10,
@@ -116,7 +116,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5072959912,
+              "duration": 3241217888,
               "status": "passed"
             },
             "line": 4,
@@ -132,7 +132,7 @@
         "before": [
           {
             "result": {
-              "duration": 2095147632,
+              "duration": 1739596322,
               "status": "passed"
             },
             "match": {
@@ -147,7 +147,7 @@
         "after": [
           {
             "result": {
-              "duration": 468171756,
+              "duration": 439174977,
               "status": "passed"
             },
             "match": {
@@ -160,7 +160,7 @@
         "steps": [
           {
             "result": {
-              "duration": 10068675811,
+              "duration": 10032139164,
               "error_message": "java.lang.NullPointerException\n\tat support.DriverQA.click(DriverQA.java:110)\n\tat pages.PesquisaPage.clickSim(PesquisaPage.java:46)\n\tat steps.PesquisaPageStepsTest.e_insere_alguma_palavra_na_barra_de_busca(PesquisaPageStepsTest.java:24)\n\tat ✽.Then e insere alguma palavra na barra de busca(pesquisa.feature:8)\n",
               "status": "failed"
             },
