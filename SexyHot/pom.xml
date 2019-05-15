@@ -134,7 +134,7 @@
                             <projectName>${project.name} - System Testing Execution Report</projectName>
                             <outputDirectory>${project.build.directory}/reports</outputDirectory>
                             <cucumberOutput>${project.build.directory}/reports/CucumberReport.json</cucumberOutput>
-                            <parallelTesting>false</parallelTesting>
+                            <parallelTesting>true</parallelTesting>
                         </configuration>
                     </execution>
                 </executions>
