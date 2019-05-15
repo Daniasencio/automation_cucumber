@@ -13,8 +13,6 @@ pipeline {
 
         stage('Run tests') {
             steps {
-
-
             sh '/Applications/apache-maen-3.6.1/bin/mvn test'
             }
         }
@@ -27,6 +25,7 @@ pipeline {
                         jsonReportDirectory: 'target',
 
             }
+            }
         }
     }
-    }
+
