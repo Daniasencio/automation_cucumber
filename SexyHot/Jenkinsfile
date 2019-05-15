@@ -21,7 +21,7 @@ pipeline {
         stage('Generate report') {
             steps {
                 cucumber buildStatus: 'UNSTABLE',
-                        fileIncludePattern: '**/Cucumber.json',
+                        fileIncludePattern: 'target/reports/cucumber.json',
                         trendsLimit: 10,
                         classifications: [
                                 [
