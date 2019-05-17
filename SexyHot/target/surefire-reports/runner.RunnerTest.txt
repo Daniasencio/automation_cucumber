@@ -1,13 +1,10 @@
 -------------------------------------------------------------------------------
 Test set: runner.RunnerTest
 -------------------------------------------------------------------------------
-Tests run: 10, Failures: 0, Errors: 3, Skipped: 1, Time elapsed: 28.093 sec <<< FAILURE! - in runner.RunnerTest
-And Isiro meus dados(Scenario: O usurio deseja acessar o site e se cadastrar)  Time elapsed: 0.004 sec  <<< ERROR!
-java.lang.NullPointerException
-
-Scenario: O usurio deseja acessar o site e se cadastrar  Time elapsed: 0.004 sec  <<< ERROR!
-java.lang.NullPointerException
-
-Scenario: O usurio deseja acessar o site e se cadastrar  Time elapsed: 0.02 sec  <<< ERROR!
-java.util.UnknownFormatConversionException: Conversion = 'F'
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.407 sec <<< FAILURE! - in runner.RunnerTest
+initializationError(runner.RunnerTest)  Time elapsed: 0.005 sec  <<< ERROR!
+cucumber.runtime.CucumberException: Error parsing feature file pesquisa.feature
+Caused by: gherkin.lexer.LexingError: 
+Lexing error on line 12: 'mc
+%_FEATURE_END_%'. See http://wiki.github.com/cucumber/gherkin/lexingerror for more information.
 
