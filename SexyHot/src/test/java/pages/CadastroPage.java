@@ -53,7 +53,7 @@ public class CadastroPage extends Hooks {
     }
 
     public void clickTermsOfUse ( ) throws InterruptedException {
-        driver.click("/html[1]/body[1]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/form[1]/div[2]/div[1]/input[1]", "xpath");
+        driver.click("/html[1]/body[1]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/form[1]/div[2]/div[1]/div[1]/input[1]", "xpath");
         Thread.sleep(2000);
 
     }
