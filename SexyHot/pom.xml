@@ -133,8 +133,10 @@
                         <configuration>
                             <projectName>${project.name} - System Testing Execution Report</projectName>
                             <outputDirectory>${project.build.directory}/reports</outputDirectory>
-                            <cucumberOutput>${project.build.directory}/reports/CucumberReport.json</cucumberOutput>
-                            <parallelTesting>true</parallelTesting>
+                            <jsonFiles>
+                                <param>${project.build.directory}/reports/CucumberReport.json</param>
+                            </jsonFiles>
+                            <parallelTesting>false</parallelTesting>
                         </configuration>
                     </execution>
                 </executions>
