@@ -36,11 +36,11 @@ public class CadastroPageStepsTest extends BaseSteps {
     public void clico_no_botao_cadastre_se ( ) throws Throwable {
         cadastroPage.clickEnter();
     }
-//ASSERT TEXT EXAMPLES
-    @When("^O cadastro é realizado com sucesso$")
-    public void o_cadastro_é_realizado_com_sucesso (String value) throws Throwable {
-       Assert.assertEquals(value, cadastroPage.Assert());
-    }
-
+////ASSERT TEXT EXAMPLES
+//    @When("^O cadastro é realizado com sucesso$")
+//    public void o_cadastro_é_realizado_com_sucesso (String value) throws Throwable {
+//       Assert.assertEquals(value, cadastroPage.Assert());
+//    }
+//
 
 }

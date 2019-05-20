@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="runner.RunnerTest" time="57.208" tests="10" errors="3" skipped="1" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="runner.RunnerTest" time="36.07" tests="10" errors="3" skipped="1" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib"/>
@@ -63,17 +63,17 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="Given O usuario acessa o site" classname="Scenario: O usurio deseja acessar o site e se cadastrar" time="0.002"/>
+  <testcase name="Given O usuario acessa o site" classname="Scenario: O usurio deseja acessar o site e se cadastrar" time="0.001"/>
   <testcase name="And clica no botao cadastrar" classname="Scenario: O usurio deseja acessar o site e se cadastrar" time="0"/>
-  <testcase name="And Isiro meus dados" classname="Scenario: O usurio deseja acessar o site e se cadastrar" time="0.005">
+  <testcase name="And Isiro meus dados" classname="Scenario: O usurio deseja acessar o site e se cadastrar" time="0.004">
     <error type="java.lang.NullPointerException">java.lang.NullPointerException
 </error>
   </testcase>
-  <testcase name="Scenario: O usurio deseja acessar o site e se cadastrar" classname="Scenario: O usurio deseja acessar o site e se cadastrar" time="0.005">
+  <testcase name="Scenario: O usurio deseja acessar o site e se cadastrar" classname="Scenario: O usurio deseja acessar o site e se cadastrar" time="0.004">
     <error type="java.lang.NullPointerException">java.lang.NullPointerException
 </error>
   </testcase>
-  <testcase name="Scenario: O usurio deseja acessar o site e se cadastrar" classname="Scenario: O usurio deseja acessar o site e se cadastrar" time="0.018">
+  <testcase name="Scenario: O usurio deseja acessar o site e se cadastrar" classname="Scenario: O usurio deseja acessar o site e se cadastrar" time="0.019">
     <error message="Conversion = &apos;F&apos;" type="java.util.UnknownFormatConversionException">java.util.UnknownFormatConversionException: Conversion = 'F'
 </error>
     <system-out><![CDATA[
@@ -86,5 +86,5 @@
   <testcase name="Given O usuario acessa o site sexyHOT" classname="Scenario: O usurio deseja acessar o site e realizar uma busca" time="0"/>
   <testcase name="Then e insere alguma palavra na barra de busca" classname="Scenario: O usurio deseja acessar o site e realizar uma busca" time="0"/>
   <testcase name="And Clico no botao buscar" classname="Scenario: O usurio deseja acessar o site e realizar uma busca" time="0"/>
-  <testcase name="Scenario: O usurio deseja acessar o site e realizar uma busca" classname="Scenario: O usurio deseja acessar o site e realizar uma busca" time="0.626"/>
+  <testcase name="Scenario: O usurio deseja acessar o site e realizar uma busca" classname="Scenario: O usurio deseja acessar o site e realizar uma busca" time="0.84"/>
 </testsuite>
