@@ -78,8 +78,5 @@ public class CadastroPage extends Hooks {
 
 }
 
-//    public void clickCadastrae ( ) throws InterruptedException {
-//        driver.switchTo().frame("iframe").findElement(By.xpat
-//
-//    }
+
 

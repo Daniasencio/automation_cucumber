@@ -1,10 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: runner.RunnerTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.407 sec <<< FAILURE! - in runner.RunnerTest
-initializationError(runner.RunnerTest)  Time elapsed: 0.005 sec  <<< ERROR!
-cucumber.runtime.CucumberException: Error parsing feature file pesquisa.feature
-Caused by: gherkin.lexer.LexingError: 
-Lexing error on line 12: 'mc
-%_FEATURE_END_%'. See http://wiki.github.com/cucumber/gherkin/lexingerror for more information.
-
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 34.77 sec - in runner.RunnerTest

@@ -8,5 +8,5 @@ Feature: Realizar cadastro no site
     And clica no botao cadastrar
     And Isiro meus dados
     Then Clico no botao cadastre-se
-#  When O cadastro é realizado com sucesso
+    When O cadastro é realizado com sucesso
 

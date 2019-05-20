@@ -11,7 +11,112 @@
         "steps": [
           {
             "result": {
-              "duration": 5557493860,
+              "duration": 1113655825,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "O usuario acessa o site",
+            "match": {
+              "location": "CadastroPageStepsTest.o_usuario_acessa_o_site()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4561370994,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "O usurio deseja acessar o site e se cadastrar",
+        "description": "",
+        "id": "realizar-cadastro-no-site;o-usurio-deseja-acessar-o-site-e-se-cadastrar",
+        "after": [
+          {
+            "result": {
+              "duration": 524879862,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2353071058,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "clica no botao cadastrar",
+            "match": {
+              "location": "CadastroPageStepsTest.clica_no_botao_cadastrar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8452261722,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Isiro meus dados",
+            "match": {
+              "location": "CadastroPageStepsTest.isiro_meus_dados()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2740493740,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Clico no botao cadastre-se",
+            "match": {
+              "location": "CadastroPageStepsTest.clico_no_botao_cadastre_se()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@Case1"
+          }
+        ]
+      }
+    ],
+    "name": "Realizar cadastro no site",
+    "description": "",
+    "id": "realizar-cadastro-no-site",
+    "keyword": "Feature",
+    "uri": "cadastro.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3198876806,
               "status": "passed"
             },
             "line": 4,
@@ -27,7 +132,7 @@
         "before": [
           {
             "result": {
-              "duration": 5274922874,
+              "duration": 3839077100,
               "status": "passed"
             },
             "match": {
@@ -42,7 +147,7 @@
         "after": [
           {
             "result": {
-              "duration": 670956766,
+              "duration": 702042703,
               "status": "passed"
             },
             "match": {
@@ -55,7 +160,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5076505376,
+              "duration": 4646728088,
               "status": "passed"
             },
             "line": 8,
@@ -67,7 +172,7 @@
           },
           {
             "result": {
-              "duration": 2332481701,
+              "duration": 2346352842,
               "status": "passed"
             },
             "line": 9,
