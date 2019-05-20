@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="runner.RunnerTest" time="33.687" tests="9" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="runner.RunnerTest" time="35.881" tests="10" errors="2" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib"/>
@@ -63,13 +63,24 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="Given O usuario acessa o site" classname="Scenario: O usurio deseja acessar o site e se cadastrar" time="0.002"/>
+  <testcase name="Given O usuario acessa o site" classname="Scenario: O usurio deseja acessar o site e se cadastrar" time="0.003"/>
   <testcase name="And clica no botao cadastrar" classname="Scenario: O usurio deseja acessar o site e se cadastrar" time="0"/>
   <testcase name="And Isiro meus dados" classname="Scenario: O usurio deseja acessar o site e se cadastrar" time="0"/>
   <testcase name="Then Clico no botao cadastre-se" classname="Scenario: O usurio deseja acessar o site e se cadastrar" time="0"/>
-  <testcase name="Scenario: O usurio deseja acessar o site e se cadastrar" classname="Scenario: O usurio deseja acessar o site e se cadastrar" time="0.617"/>
-  <testcase name="Given O usuario acessa o site sexyHOT" classname="Scenario: O usurio deseja acessar o site e realizar uma busca" time="0"/>
+  <testcase name="Scenario: O usurio deseja acessar o site e se cadastrar" classname="Scenario: O usurio deseja acessar o site e se cadastrar" time="0.477"/>
+  <testcase name="Given O usuario acessa o site sexyHOT" classname="Scenario: O usurio deseja acessar o site e realizar uma busca" time="0.001"/>
   <testcase name="Then e insere alguma palavra na barra de busca" classname="Scenario: O usurio deseja acessar o site e realizar uma busca" time="0"/>
   <testcase name="And Clico no botao buscar" classname="Scenario: O usurio deseja acessar o site e realizar uma busca" time="0"/>
-  <testcase name="Scenario: O usurio deseja acessar o site e realizar uma busca" classname="Scenario: O usurio deseja acessar o site e realizar uma busca" time="0.74"/>
+  <testcase name="When a busca é realizada com sucesso" classname="Scenario: O usurio deseja acessar o site e realizar uma busca" time="0.004">
+    <error message="Arity mismatch: Step Definition &apos;steps.PesquisaPageStepsTest.a_busca_é_realizada_com_sucesso(String) in file:/Users/luis.camilo/Documents/automation_cucumber/SexyHot/target/test-classes/&apos; with pattern [^a busca é realizada com sucesso$] is declared with 1 parameters. However, the gherkin step has 0 arguments []. &#10;Step: When a busca é realizada com sucesso" type="cucumber.runtime.CucumberException">cucumber.runtime.CucumberException: 
+Arity mismatch: Step Definition 'steps.PesquisaPageStepsTest.a_busca_é_realizada_com_sucesso(String) in file:/Users/luis.camilo/Documents/automation_cucumber/SexyHot/target/test-classes/' with pattern [^a busca é realizada com sucesso$] is declared with 1 parameters. However, the gherkin step has 0 arguments []. 
+Step: When a busca é realizada com sucesso
+</error>
+  </testcase>
+  <testcase name="Scenario: O usurio deseja acessar o site e realizar uma busca" classname="Scenario: O usurio deseja acessar o site e realizar uma busca" time="0.004">
+    <error message="Arity mismatch: Step Definition &apos;steps.PesquisaPageStepsTest.a_busca_é_realizada_com_sucesso(String) in file:/Users/luis.camilo/Documents/automation_cucumber/SexyHot/target/test-classes/&apos; with pattern [^a busca é realizada com sucesso$] is declared with 1 parameters. However, the gherkin step has 0 arguments []. &#10;Step: When a busca é realizada com sucesso" type="cucumber.runtime.CucumberException">cucumber.runtime.CucumberException: 
+Arity mismatch: Step Definition 'steps.PesquisaPageStepsTest.a_busca_é_realizada_com_sucesso(String) in file:/Users/luis.camilo/Documents/automation_cucumber/SexyHot/target/test-classes/' with pattern [^a busca é realizada com sucesso$] is declared with 1 parameters. However, the gherkin step has 0 arguments []. 
+Step: When a busca é realizada com sucesso
+</error>
+  </testcase>
 </testsuite>

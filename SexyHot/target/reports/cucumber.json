@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1526673777,
+              "duration": 2132773550,
               "status": "passed"
             },
             "line": 4,
@@ -27,7 +27,7 @@
         "before": [
           {
             "result": {
-              "duration": 4181971749,
+              "duration": 4262935521,
               "status": "passed"
             },
             "match": {
@@ -42,7 +42,7 @@
         "after": [
           {
             "result": {
-              "duration": 616051973,
+              "duration": 475663941,
               "status": "passed"
             },
             "match": {
@@ -55,7 +55,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2324505772,
+              "duration": 2418731970,
               "status": "passed"
             },
             "line": 8,
@@ -67,7 +67,7 @@
           },
           {
             "result": {
-              "duration": 8448650399,
+              "duration": 8467330147,
               "status": "passed"
             },
             "line": 9,
@@ -79,7 +79,7 @@
           },
           {
             "result": {
-              "duration": 2745204920,
+              "duration": 2738972088,
               "status": "passed"
             },
             "line": 10,
@@ -116,7 +116,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3342057287,
+              "duration": 4485904533,
               "status": "passed"
             },
             "line": 4,
@@ -132,7 +132,7 @@
         "before": [
           {
             "result": {
-              "duration": 2547646594,
+              "duration": 2488726008,
               "status": "passed"
             },
             "match": {
@@ -147,7 +147,7 @@
         "after": [
           {
             "result": {
-              "duration": 739496882,
+              "duration": 1192964143,
               "status": "passed"
             },
             "match": {
@@ -160,7 +160,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4526259502,
+              "duration": 4552078676,
               "status": "passed"
             },
             "line": 8,
@@ -172,7 +172,7 @@
           },
           {
             "result": {
-              "duration": 2399955638,
+              "duration": 2355433990,
               "status": "passed"
             },
             "line": 9,
@@ -181,6 +181,22 @@
               "location": "PesquisaPageStepsTest.clico_no_botao_buscar()"
             },
             "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 447839,
+              "error_message": "cucumber.runtime.CucumberException: Arity mismatch: Step Definition \u0027steps.PesquisaPageStepsTest.a_busca_é_realizada_com_sucesso(String) in file:/Users/luis.camilo/Documents/automation_cucumber/SexyHot/target/test-classes/\u0027 with pattern [^a busca é realizada com sucesso$] is declared with 1 parameters. However, the gherkin step has 0 arguments []. \nStep: When a busca é realizada com sucesso\n\tat cucumber.runtime.StepDefinitionMatch.arityMismatch(StepDefinitionMatch.java:102)\n\tat cucumber.runtime.StepDefinitionMatch.transformedArgs(StepDefinitionMatch.java:60)\n\tat cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)\n\tat cucumber.runtime.Runtime.runStep(Runtime.java:300)\n\tat cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)\n\tat cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)\n\tat cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)\n\tat cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\n\tat cucumber.api.junit.Cucumber.run(Cucumber.java:100)\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)\n\tat org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)\n",
+              "status": "failed"
+            },
+            "output": [
+              "url: https://sexyhot.globo.com/todos-os-videos?page\u003d1\u0026q\u003dtestes"
+            ],
+            "line": 10,
+            "name": "a busca é realizada com sucesso",
+            "match": {
+              "location": "PesquisaPageStepsTest.a_busca_é_realizada_com_sucesso(String)"
+            },
+            "keyword": "When "
           }
         ],
         "tags": [
