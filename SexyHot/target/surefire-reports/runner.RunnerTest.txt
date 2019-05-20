@@ -1,14 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: runner.RunnerTest
 -------------------------------------------------------------------------------
-Tests run: 10, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 35.881 sec <<< FAILURE! - in runner.RunnerTest
-When a busca é realizada com sucesso(Scenario: O usurio deseja acessar o site e realizar uma busca)  Time elapsed: 0.004 sec  <<< ERROR!
-cucumber.runtime.CucumberException: 
-Arity mismatch: Step Definition 'steps.PesquisaPageStepsTest.a_busca_é_realizada_com_sucesso(String) in file:/Users/luis.camilo/Documents/automation_cucumber/SexyHot/target/test-classes/' with pattern [^a busca é realizada com sucesso$] is declared with 1 parameters. However, the gherkin step has 0 arguments []. 
-Step: When a busca é realizada com sucesso
-
-Scenario: O usurio deseja acessar o site e realizar uma busca  Time elapsed: 0.004 sec  <<< ERROR!
-cucumber.runtime.CucumberException: 
-Arity mismatch: Step Definition 'steps.PesquisaPageStepsTest.a_busca_é_realizada_com_sucesso(String) in file:/Users/luis.camilo/Documents/automation_cucumber/SexyHot/target/test-classes/' with pattern [^a busca é realizada com sucesso$] is declared with 1 parameters. However, the gherkin step has 0 arguments []. 
-Step: When a busca é realizada com sucesso
-
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 39.034 sec - in runner.RunnerTest

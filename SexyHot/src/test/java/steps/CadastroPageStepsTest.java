@@ -41,6 +41,6 @@ public class CadastroPageStepsTest extends BaseSteps {
 //    public void o_cadastro_é_realizado_com_sucesso (String value) throws Throwable {
 //       Assert.assertEquals(value, cadastroPage.Assert());
 //    }
-
+//
 
 }
