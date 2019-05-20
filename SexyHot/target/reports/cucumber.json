@@ -11,7 +11,116 @@
         "steps": [
           {
             "result": {
-              "duration": 3226106007,
+              "duration": 1376138008,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "O usuario acessa o site",
+            "match": {
+              "location": "CadastroPageStepsTest.o_usuario_acessa_o_site()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4631247890,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "O usurio deseja acessar o site e se cadastrar",
+        "description": "",
+        "id": "realizar-cadastro-no-site;o-usurio-deseja-acessar-o-site-e-se-cadastrar",
+        "after": [
+          {
+            "result": {
+              "duration": 11495217,
+              "error_message": "java.util.UnknownFormatConversionException: Conversion \u003d \u0027F\u0027\n\tat java.util.Formatter$FormatSpecifier.conversion(Formatter.java:2691)\n\tat java.util.Formatter$FormatSpecifier.\u003cinit\u003e(Formatter.java:2720)\n\tat java.util.Formatter.parse(Formatter.java:2560)\n\tat java.util.Formatter.format(Formatter.java:2501)\n\tat java.util.Formatter.format(Formatter.java:2455)\n\tat java.lang.String.format(String.java:2940)\n\tat steps.Hooks.afterScenario(Hooks.java:27)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat cucumber.runtime.Utils$1.call(Utils.java:40)\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\n\tat cucumber.runtime.Utils.invoke(Utils.java:34)\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)\n\tat cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:224)\n\tat cucumber.runtime.Runtime.runHooks(Runtime.java:212)\n\tat cucumber.runtime.Runtime.runAfterHooks(Runtime.java:206)\n\tat cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:46)\n\tat cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\n\tat cucumber.api.junit.Cucumber.run(Cucumber.java:100)\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)\n\tat org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)\n",
+              "status": "failed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2517001905,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "clica no botao cadastrar",
+            "match": {
+              "location": "CadastroPageStepsTest.clica_no_botao_cadastrar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 16239367638,
+              "error_message": "java.lang.NullPointerException\n\tat support.DriverQA.click(DriverQA.java:110)\n\tat pages.CadastroPage.clickTermsOfUse(CadastroPage.java:56)\n\tat steps.CadastroPageStepsTest.isiro_meus_dados(CadastroPageStepsTest.java:31)\n\tat ✽.And Isiro meus dados(cadastro.feature:9)\n",
+              "status": "failed"
+            },
+            "line": 9,
+            "name": "Isiro meus dados",
+            "match": {
+              "location": "CadastroPageStepsTest.isiro_meus_dados()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "output": [
+              "url: https://login.globo.com/cadastro/6284?signup_no_blank\u003dtrue\u0026url\u003dhttps%3A%2F%2Fgsatmulti.globo.com%2Fcore%2Flogin%2F%3Fredirect_uri%3Dhttps%253A%252F%252Fsexyhot.globo.com%252Fvod%252Fauth%252Fclient-side%252F%26duid%3D%26client_id%3D5347d0cf-683c-43bd-82a4-b8d99414a1ea"
+            ],
+            "line": 10,
+            "name": "Clico no botao cadastre-se",
+            "match": {
+              "location": "CadastroPageStepsTest.clico_no_botao_cadastre_se()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@Case1"
+          }
+        ]
+      }
+    ],
+    "name": "Realizar cadastro no site",
+    "description": "",
+    "id": "realizar-cadastro-no-site",
+    "keyword": "Feature",
+    "uri": "cadastro.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 24475118951,
               "status": "passed"
             },
             "line": 4,
@@ -27,7 +136,7 @@
         "before": [
           {
             "result": {
-              "duration": 4744800540,
+              "duration": 9422864,
               "status": "passed"
             },
             "match": {
@@ -42,7 +151,7 @@
         "after": [
           {
             "result": {
-              "duration": 671233537,
+              "duration": 624332707,
               "status": "passed"
             },
             "match": {
@@ -55,7 +164,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4494798157,
+              "duration": 4675850108,
               "status": "passed"
             },
             "line": 8,
@@ -67,7 +176,7 @@
           },
           {
             "result": {
-              "duration": 2376789228,
+              "duration": 2300230955,
               "status": "passed"
             },
             "line": 9,
