@@ -3,22 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2d0eea16-d58a-4c6a-8a9d-032ede360eeb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/steps/PesquisaPageStepsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/PesquisaPageStepsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/pesquisa.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/pesquisa.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/formated-report/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/formated-report/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/formated-report/pages/feature-scenarios/feature_0.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/formated-report/pages/feature-scenarios/feature_0.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/formated-report/pages/feature-scenarios/feature_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/formated-report/pages/feature-scenarios/feature_1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/formated-report/pages/feature-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/formated-report/pages/feature-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/formated-report/pages/scenario-detail/scenario_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/formated-report/pages/scenario-detail/scenario_1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/formated-report/pages/scenario-detail/scenario_3.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/formated-report/pages/scenario-detail/scenario_3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/formated-report/pages/tag-scenarios/tag_Case1.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/formated-report/pages/tag-scenarios/tag_Case1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/formated-report/pages/tag-scenarios/tag_Case2.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/formated-report/pages/tag-scenarios/tag_Case2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/formated-report/pages/tag-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/formated-report/pages/tag-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/reports/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/reports/cucumber.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-runner.RunnerTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-runner.RunnerTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/runner.RunnerTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/runner.RunnerTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/pesquisa.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/pesquisa.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/PesquisaPageStepsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/steps/PesquisaPageStepsTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,52 +13,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Jenkinsfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
-              <caret line="55" column="1" selection-start-line="55" selection-start-column="1" selection-end-line="55" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/features/cadastro.feature">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/steps/PesquisaPageStepsTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="39" column="1" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/screenshots/https:/sexyhot.globo.com/todos-os-videos?page=1&amp;q=testes-1558380722605.jpg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/steps/CadastroPageStepsTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/support/DriverQA.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="42" column="7" selection-start-line="38" selection-start-column="2" selection-end-line="42" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/features/pesquisa.feature">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+            <state relative-caret-position="-1891">
+              <caret line="22" column="58" selection-start-line="22" selection-start-column="56" selection-end-line="22" selection-end-column="58" />
             </state>
           </provider>
         </entry>
@@ -119,29 +62,6 @@
             <path>
               <item name="Cucumber_sexyHot" type="b2602c69:ProjectViewProjectNode" />
               <item name="SexyHot" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Cucumber_sexyHot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SexyHot" type="462c0819:PsiDirectoryNode" />
-              <item name="screenshots" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Cucumber_sexyHot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SexyHot" type="462c0819:PsiDirectoryNode" />
-              <item name="screenshots" type="462c0819:PsiDirectoryNode" />
-              <item name="https:" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Cucumber_sexyHot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SexyHot" type="462c0819:PsiDirectoryNode" />
-              <item name="screenshots" type="462c0819:PsiDirectoryNode" />
-              <item name="https:" type="462c0819:PsiDirectoryNode" />
-              <item name="sexyhot.globo.com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Cucumber_sexyHot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SexyHot" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -180,14 +100,6 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Cucumber_sexyHot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SexyHot" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="features" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -195,7 +107,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558380800790" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558381105571" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -320,9 +232,9 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32880434" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.52717394" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32880434" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32880434" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -363,13 +275,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/support/DriverQA.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="22" column="58" selection-start-line="22" selection-start-column="56" selection-end-line="22" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/steps/Hooks.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -398,12 +303,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/steps/CadastroPageStepsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="42" column="7" selection-start-line="38" selection-start-column="2" selection-end-line="42" selection-end-column="7" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/screenshots/https:/sexyhot.globo.com/todos-os-videos?page=1&amp;q=testes-1558379734755.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/screenshots/https:/sexyhot.globo.com/todos-os-videos?page=1&amp;q=testes-1558380722605.jpg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/features/cadastro.feature">
       <provider selected="true" editor-type-id="text-editor">
@@ -412,8 +316,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/screenshots/https:/sexyhot.globo.com/todos-os-videos?page=1&amp;q=testes-1558379734755.jpg">
-      <provider selected="true" editor-type-id="images" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/steps/PesquisaPageStepsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="39" column="1" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/steps/CadastroPageStepsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="42" column="7" selection-start-line="38" selection-start-column="2" selection-end-line="42" selection-end-column="7" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/features/pesquisa.feature">
       <provider selected="true" editor-type-id="text-editor">
@@ -422,15 +337,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/steps/PesquisaPageStepsTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/support/DriverQA.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="39" column="1" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
+        <state relative-caret-position="-1891">
+          <caret line="22" column="58" selection-start-line="22" selection-start-column="56" selection-end-line="22" selection-end-column="58" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/screenshots/https:/sexyhot.globo.com/todos-os-videos?page=1&amp;q=testes-1558380722605.jpg">
-      <provider selected="true" editor-type-id="images" />
     </entry>
   </component>
 </project>
