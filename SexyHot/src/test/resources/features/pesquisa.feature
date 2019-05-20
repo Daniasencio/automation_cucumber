@@ -8,4 +8,3 @@ Feature: Realizar pesquisa no site
    Then e insere alguma palavra na barra de busca
     And Clico no botao buscar
 #    When a busca é realizada com sucesso
-
