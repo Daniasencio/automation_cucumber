@@ -29,12 +29,12 @@ public class PesquisaPageStepsTest extends BaseSteps {
     public void clico_no_botao_buscar ( ) throws Throwable {
         pesquisaPage.clickPesquisa();
     }
-
-    @When("^a busca é realizada com sucesso$")
-    public void a_busca_é_realizada_com_sucesso (String value ) throws Throwable {
-        Assert.assertEquals(value, pesquisaPage.assertPesquisa());
-
-    }
+//
+//    @When("^a busca é realizada com sucesso$")
+//    public void a_busca_é_realizada_com_sucesso (String value ) throws Throwable {
+//        Assert.assertEquals(value, pesquisaPage.assertPesquisa());
+//
+//    }
 
 
 }
